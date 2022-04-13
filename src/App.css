@@ -1,0 +1,121 @@
+.display {
+  width: 240px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.display-area {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 8px;
+  width: 226px;
+  height: 52px;
+  border-radius: 6px;
+  background: #f3f4f6;
+  color: #111827;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  margin: auto;
+  border: none;
+}
+
+.computePad {
+  width: 232px;
+  height: 56px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.computePad button {
+  width: 52px;
+  height: 48px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e2e3e5;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.numberPad {
+  width: 240px;
+  height: 224px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.numberPad button {
+  width: 72px;
+  height: 48px;
+  border: 1px solid #e2e3e5;
+  border-radius: 6px;
+  background-color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.numberPad-zero {
+  flex: 1;
+}
+
+.equalityButton {
+  width: 240px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.equalityButton button {
+  width: 232px;
+  height: 64px;
+  background-color: #5d5fef;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.dragging {
+  opacity: 0.2;
+}
+
+.grabbable {
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 6px;
+}
+
+.dropped {
+  margin: 6px;
+}
+
+.active {
+  background: #f0f9ff;
+  border: 2px dashed #c4c4c4;
+}
+
+.dropzone {
+  height: 450px;
+  width: 250px;
+  margin: 10px;
+  position: relative;
+  border-radius: 6px;
+}
